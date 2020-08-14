@@ -6,7 +6,7 @@ Veremos como o algoritmo de ordenação Bubble Sort funciona e ver sua implement
 
 O Bubble Sort é um algoritmo “Algoritmo in-place”, ou seja, transforma a entrada sem nenhuma estrutura de dados auxiliar. No entanto, uma pequena quantidade de espaço de armazenamento extra é permitida para variáveis auxiliares. A entrada é geralmente substituída pela saída conforme o algoritmo é executado.
 
-No caso do Bubble Sort ele compara a primeira posição do vetor com a segunda, caso o valor da primeira posição seja maior que o da segunda, é feito a troca de posições, caso não seja maior, o algoritmo continua a percorrer o vetor, seguindo para a segunda posição do vetor e comparando com o seguinte, repetindo o mesmo processo sucessivamente, até o fim do vetor, de forma que todo ele esteja ordenado. Quando há troca de posições, o algoritmo é “notificado”, e então, no final da iteração, o processo de ordenação é repetido novamente, até que todo o vetor esteja ordenado, e o loop de ordenação pare.
+No caso do Bubble Sort ele compara a primeira posição do vetor com a segunda, caso o valor da primeira posição seja maior que o da segunda, é feito a troca de valores, caso não seja maior, o algoritmo continua a percorrer o vetor, seguindo para a segunda posição do vetor e comparando com o seguinte, repetindo o mesmo processo sucessivamente, até o fim do vetor, de forma que todo ele esteja ordenado. Quando há troca de posições, o algoritmo é “notificado”, e então, no final da iteração, o processo de ordenação é repetido novamente, até que todo o vetor esteja ordenado, e o loop de ordenação pare.
 
 ### Exemplos:
 
@@ -18,7 +18,7 @@ int[] array = {7,4,1,2,3,10};
 ```
 #### Iteração 1.1
 
-Serão comparados os valores do primeiro e o segundo item da lista: 7>4? Neste caso, o primeiro valor é maior que o segundo, então haverá a troca de posição:
+Serão comparados os valores do primeiro e o segundo item da lista: 7>4? Neste caso, o primeiro valor é maior que o segundo, então haverá a troca de valores:
 
 {4, 7, 1, 2, 3, 10}
 
